@@ -10,7 +10,7 @@ describe('PageStudentFormComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ PageStudentFormComponent ]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(PageStudentFormComponent);
     component = fixture.componentInstance;

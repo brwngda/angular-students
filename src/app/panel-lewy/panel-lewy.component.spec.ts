@@ -10,7 +10,7 @@ describe('PanelLewyComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ PanelLewyComponent ]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(PanelLewyComponent);
     component = fixture.componentInstance;

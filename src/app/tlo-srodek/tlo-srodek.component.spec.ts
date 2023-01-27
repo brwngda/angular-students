@@ -10,7 +10,7 @@ describe('TloSrodekComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ TloSrodekComponent ]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(TloSrodekComponent);
     component = fixture.componentInstance;

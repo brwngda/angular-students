@@ -7,7 +7,7 @@
 .lewy-panel-flex {
   display: flex;
   flex-direction: column;
-  background-color: red;
+  /*background-color: red;*/
 }
 
 .naglowek-nawigacji {
@@ -19,7 +19,7 @@
 
 .panel-guzikow {
   margin: 10px auto;
-  border: 4px;
+  padding: 4px;
 }
 
 .guzik-nawigacja {
