@@ -1,0 +1,5 @@
+.panel-student-list {
+  display: flex;
+  flex: 1 1 0;
+  background-color: bisque;
+}
