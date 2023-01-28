@@ -5,25 +5,25 @@
   <div class="pola-formularza">
     <div class="pole-formularza">
       <label>Imie:</label>
-      <input type="text">
+      <input type="text" placeholder="Podaj imie:" [(ngModel)]="dodawanyStudent.imie">
     </div>
     <div class="pole-formularza">
       <label>Nazwisko:</label>
-      <input type="text">
+      <input type="text" placeholder="Podaj nazwisko:" [(ngModel)]="dodawanyStudent.nazwisko">
     </div>
     <div class="pole-formularza">
       <label>Data urodzenia:</label>
-      <input type="date">
+      <input type="date" [(ngModel)]="dodawanyStudent.dataUrodzenia">
     </div>
   </div>
   <div class="guziki-formularza">
     <div class="guziki-reset-kontener">
-      <button class="guzik-reset">
+      <button class="guzik-reset" (click)="wyczyscFormularz()">
         Wyczyść
       </button>
     </div>
     <div class="guzik-sumbit-kontener">
-      <button class="guzik-submit">
+      <button class="guzik-submit" (click)="dodajStudentaDoSerwisu()">
         Wyślij
       </button>
     </div>

@@ -10,6 +10,7 @@ import { PageMainComponent } from './page-main/page-main.component';
 import { PageStudentListComponent } from './page-student-list/page-student-list.component';
 import { PageStudentFormComponent } from './page-student-form/page-student-form.component';
 import {StudentService} from "./student-service/student.service";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {StudentService} from "./student-service/student.service";
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [StudentService],
   bootstrap: [AppComponent]
