@@ -9,6 +9,7 @@ import {AppRoutingModule} from "./app-routing.module";
 import { PageMainComponent } from './page-main/page-main.component';
 import { PageStudentListComponent } from './page-student-list/page-student-list.component';
 import { PageStudentFormComponent } from './page-student-form/page-student-form.component';
+import {StudentService} from "./student-service/student.service";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { PageStudentFormComponent } from './page-student-form/page-student-form.
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [StudentService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
